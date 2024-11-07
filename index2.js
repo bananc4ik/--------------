@@ -10,3 +10,5 @@ console.log(obj);
 let key = prompt("Ключ!");
 console.log(obj[key]);
 
+
+
