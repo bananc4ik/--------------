@@ -8,7 +8,9 @@ for (let i = 0; i < n; i++) {
 }
 console.log(obj);
 let key = prompt("Ключ!");
-console.log(obj[key]);
+for (key in obj){
+    console.log(obj[key]);
+}
 
 
 
